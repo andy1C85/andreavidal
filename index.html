@@ -33,6 +33,7 @@
   .r-p2h   { grid-template-columns: 2fr 3fr; }   /* 1 portrait + 1 horizontal */
   .r-h1p   { grid-template-columns: 3fr 2fr 2fr; } /* 1 horizontal + 2 portraits */
   .r-w2p   { grid-template-columns: 2fr 1fr 1fr; }   /* 1 paysage 4/3 + 2 portraits 2/3 */
+  .r-pv    { grid-template-columns: 8fr 9fr; }   /* portrait 2/3 + portrait 3/4, meme hauteur */
   .r-wwh   { grid-template-columns: 8fr 8fr 9fr; }   /* 2 paysages 4/3 + 1 paysage 3/2 */
   .r-p1h   { grid-template-columns: 2fr 2fr 3fr; } /* 2 portraits + 1 horizontal */
 
@@ -166,7 +167,7 @@ const LAYOUT_2026 = [
   { cls: 'r-2', items: [{ n:19, r:'p' }, { n:20, r:'p' }] },
   { cls: 'r-2',   items: [{ n:1,  r:'w' }, { n:2,  r:'h' }] },
   { cls: 'r-2',   items: [{ n:3,  r:'h' }, { n:4,  r:'h' }] },
-  { cls: 'r-h2p', items: [{ n:6,  r:'h' }, { n:5,  r:'v' }] },
+  { cls: 'r-pv',  items: [{ n:6,  r:'p' }, { n:5,  r:'v' }] },
   { cls: 'r-2',   items: [{ n:7,  r:'h' }, { n:8,  r:'h' }] },
   { cls: 'r-2',   items: [{ n:9,  r:'w' }, { n:10, r:'h' }] },
   { cls: 'r-2',   items: [{ n:11, r:'h' }, { n:12, r:'h' }] },
